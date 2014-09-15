@@ -230,37 +230,21 @@ namespace Ogre {
     VertexElementType VertexElement::multiplyTypeCount(VertexElementType baseType, 
         unsigned short count)
     {
+        if ( count < 1 || count > 4 )
+        {
+            OGRE_EXCEPT( Exception::ERR_INVALIDPARAMS, "Count out of range",
+                "VertexElement::multiplyTypeCount" );
+        }
         switch (baseType)
         {
         case VET_FLOAT1:
-            switch(count)
-            {
-            case 1:
-                return VET_FLOAT1;
-            case 2:
-                return VET_FLOAT2;
-            case 3:
-                return VET_FLOAT3;
-            case 4:
-                return VET_FLOAT4;
-            default:
-                break;
-            }
-            break;
+        case VET_DOUBLE1:
+        case VET_INT1:
         case VET_SHORT1:
-            switch(count)
-            {
-            case 1:
-                return VET_SHORT1;
-            case 2:
-                return VET_SHORT2;
-            case 3:
-                return VET_SHORT3;
-            case 4:
-                return VET_SHORT4;
-            default:
-                break;
-            }
+        case VET_UINT1:
+        case VET_USHORT1:
+            // evil enumeration arithmetic
+            return static_cast<VertexElementType>( baseType + count - 1 );
             break;
         default:
             break;
