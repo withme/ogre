@@ -279,13 +279,34 @@ namespace Ogre
             return DXGI_FORMAT_R32G32B32_FLOAT;
         case VET_FLOAT4:
             return DXGI_FORMAT_R32G32B32A32_FLOAT;
+        case VET_INT1:
+            return DXGI_FORMAT_R32_SINT;
+        case VET_INT2:
+            return DXGI_FORMAT_R32G32_SINT;
+        case VET_INT3:
+            return DXGI_FORMAT_R32G32B32_SINT;
+        case VET_INT4:
+            return DXGI_FORMAT_R32G32B32A32_SINT;
+        case VET_UINT1:
+            return DXGI_FORMAT_R32_UINT;
+        case VET_UINT2:
+            return DXGI_FORMAT_R32G32_UINT;
+        case VET_UINT3:
+            return DXGI_FORMAT_R32G32B32_UINT;
+        case VET_UINT4:
+            return DXGI_FORMAT_R32G32B32A32_UINT;
         case VET_SHORT2:
             return DXGI_FORMAT_R16G16_SINT;
         case VET_SHORT4:
             return DXGI_FORMAT_R16G16B16A16_SINT;
+        case VET_USHORT2:
+            return DXGI_FORMAT_R16G16_UINT;
+        case VET_USHORT4:
+            return DXGI_FORMAT_R16G16B16A16_UINT;
         case VET_UBYTE4:
             return DXGI_FORMAT_R8G8B8A8_UINT;
         }
+        OgreAssert( false, "missing case in switch statement" );
         // to keep compiler happy
         return DXGI_FORMAT_R32G32B32_FLOAT;
     }
