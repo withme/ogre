@@ -299,12 +299,26 @@ namespace Ogre
             return DXGI_FORMAT_R16G16_SINT;
         case VET_SHORT4:
             return DXGI_FORMAT_R16G16B16A16_SINT;
+        case VET_SHORT2_NORM:
+            return DXGI_FORMAT_R16G16_SNORM;
+        case VET_SHORT4_NORM:
+            return DXGI_FORMAT_R16G16B16A16_SNORM;
         case VET_USHORT2:
             return DXGI_FORMAT_R16G16_UINT;
         case VET_USHORT4:
             return DXGI_FORMAT_R16G16B16A16_UINT;
+        case VET_USHORT2_NORM:
+            return DXGI_FORMAT_R16G16_UNORM;
+        case VET_USHORT4_NORM:
+            return DXGI_FORMAT_R16G16B16A16_UNORM;
+        case VET_BYTE4:
+            return DXGI_FORMAT_R8G8B8A8_SINT;
+        case VET_BYTE4_NORM:
+            return DXGI_FORMAT_R8G8B8A8_SNORM;
         case VET_UBYTE4:
             return DXGI_FORMAT_R8G8B8A8_UINT;
+        case VET_UBYTE4_NORM:
+            return DXGI_FORMAT_R8G8B8A8_UNORM;
         }
         OgreAssert( false, "missing case in switch statement" );
         // to keep compiler happy
