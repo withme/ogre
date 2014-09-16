@@ -973,7 +973,11 @@ namespace Ogre
         switch ( vet )
         {
             case VET_UBYTE4:
-            case VET_USHORT1:
+            case VET_UBYTE4_NORM:
+            case VET_USHORT2:
+            case VET_USHORT2_NORM:
+            case VET_SHORT2:
+            case VET_SHORT2_NORM:
             case VET_FLOAT1:
                 mBlendWeightsBaseElementType = vet;
                 break;

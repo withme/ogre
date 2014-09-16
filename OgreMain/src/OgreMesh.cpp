@@ -813,12 +813,7 @@ namespace Ogre {
         }
         // type of Weights is settable on the MeshManager.
         VertexElementType weightsBaseType = MeshManager::getSingleton().getBlendWeightsBaseElementType();
-        // can't have an odd number of ushorts
-        if ( weightsBaseType == VET_USHORT1 && ( numBlendWeightsPerVertex & 1 ) != 0 )
-        {
-            numBlendWeightsPerVertex++;
-        }
-        VertexElementType weightsVertexElemType = weightsBaseType == VET_UBYTE4 ? weightsBaseType : VertexElement::multiplyTypeCount( weightsBaseType, numBlendWeightsPerVertex );
+        VertexElementType weightsVertexElemType = VertexElement::multiplyTypeCount( weightsBaseType, numBlendWeightsPerVertex );
         HardwareVertexBufferSharedPtr vbuf =
             HardwareBufferManager::getSingleton().createVertexBuffer(
             sizeof( unsigned char ) * 4 + VertexElement::getTypeSize( weightsVertexElemType ),
@@ -861,6 +856,25 @@ namespace Ogre {
             pWeightElem = &wtElem;
         }
 
+        unsigned int maxIntWt = 0;
+        // keeping a switch out of the loop
+        switch ( weightsBaseType )
+        {
+            case VET_FLOAT1:
+                break;
+            case VET_UBYTE4:
+            case VET_UBYTE4_NORM:
+                maxIntWt = 0xff;
+                break;
+            case VET_USHORT2:
+            case VET_USHORT2_NORM:
+                maxIntWt = 0xffff;
+                break;
+            case VET_SHORT2:
+            case VET_SHORT2_NORM:
+                maxIntWt = 0x7fff;
+                break;
+        }
         // Assign data
         size_t v;
         VertexBoneAssignmentList::const_iterator i, iend;
@@ -888,10 +902,10 @@ namespace Ogre {
             // if weights are integers,
             if ( weightsBaseType != VET_FLOAT1 )
             {
-                // pack the float weights into ushorts/bytes
+                // pack the float weights into shorts/bytes
                 unsigned int intWeights[ 4 ];
                 unsigned int sum = 0;
-                const unsigned int wtScale = weightsBaseType == VET_UBYTE4 ? 0xff : 0xffff;  // this value corresponds to a weight of 1.0
+                const unsigned int wtScale = maxIntWt;  // this value corresponds to a weight of 1.0
                 for ( int ii = 0; ii < 4; ++ii )
                 {
                     unsigned int bw = static_cast<unsigned int>( weights[ ii ] * wtScale );
@@ -899,7 +913,7 @@ namespace Ogre {
                     sum += bw;
                 }
                 // if the sum doesn't add up due to roundoff error, we need to adjust the intWeights so that the sum is wtScale
-                if ( sum != wtScale )
+                if ( sum != maxIntWt )
                 {
                     // find the largest weight (it isn't necessarily the first one...)
                     int iMaxWeight = 0;
@@ -919,11 +933,11 @@ namespace Ogre {
                     // and worst when 2 or more weights are similar in magnitude.
                     // A better method could be used to reduce the quantization error, but this is
                     // being done at run-time so it needs to be quick.
-                    intWeights[ iMaxWeight ] += wtScale - sum;
+                    intWeights[ iMaxWeight ] += maxIntWt - sum;
                 }
 
                 // now write the weights
-                if ( weightsBaseType == VET_UBYTE4 )
+                if ( weightsBaseType == VET_UBYTE4 || weightsBaseType == VET_UBYTE4_NORM )
                 {
                     // write out the weights as bytes
                     unsigned char* pWeight;
@@ -936,7 +950,7 @@ namespace Ogre {
                 }
                 else
                 {
-                    // write out the weights as ushorts
+                    // write out the weights as shorts
                     unsigned short* pWeight;
                     pWeightElem->baseVertexPointerToElement( pBase, &pWeight );
                     for ( int ii = 0; ii < numBlendWeightsPerVertex; ++ii )
