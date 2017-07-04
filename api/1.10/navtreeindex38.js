@@ -1,9 +1,5 @@
 var NAVTREEINDEX38 =
 {
-"class_ogre_1_1_d3_d9_texture.html#a87c0bc1fea93de0e2cd65fa2dc374fd8":[6,0,0,182,13],
-"class_ogre_1_1_d3_d9_texture.html#a893c7a150edb48a25e5df700cfc194eb":[6,0,0,182,85],
-"class_ogre_1_1_d3_d9_texture.html#a8b4352d54f63d4c0f29d45fca8d11c2a":[6,0,0,182,49],
-"class_ogre_1_1_d3_d9_texture.html#a8ca1e94796d5c0c57989936942cb2b2c":[6,0,0,182,35],
 "class_ogre_1_1_d3_d9_texture.html#a8e4b0066ed588a49cdf474e9870bfcb4":[6,0,0,182,81],
 "class_ogre_1_1_d3_d9_texture.html#a91a5ec6b7cae49a1f7aa05b7beac966b":[6,0,0,182,41],
 "class_ogre_1_1_d3_d9_texture.html#a9877df680d0756fa081a3a558ac94b2a":[6,0,0,182,4],
@@ -63,7 +59,6 @@ var NAVTREEINDEX38 =
 "class_ogre_1_1_d3_d9_texture_manager.html#a3083fb17ce51843aecdc0382d2d717f6":[6,0,0,183,18],
 "class_ogre_1_1_d3_d9_texture_manager.html#a379c3ff20c97fcd13db3bc7841b4b560":[6,0,0,183,16],
 "class_ogre_1_1_d3_d9_texture_manager.html#a3a55789d982b34bdd9daa27650360653":[6,0,0,183,31],
-"class_ogre_1_1_d3_d9_texture_manager.html#a3cc7b930d37bc9fc156f7a2cadb572a3":[6,0,0,183,29],
 "class_ogre_1_1_d3_d9_texture_manager.html#a40769092850d5b296e1d1a9190631700":[6,0,0,183,53],
 "class_ogre_1_1_d3_d9_texture_manager.html#a4173c940f4c67e8a2dc1a5c4b6de62f6":[6,0,0,183,8],
 "class_ogre_1_1_d3_d9_texture_manager.html#a4350b30d83790f208a9fdd1197ce9c95":[6,0,0,183,14],
@@ -96,7 +91,6 @@ var NAVTREEINDEX38 =
 "class_ogre_1_1_d3_d9_texture_manager.html#aac423b67b8c1aa00cd6a3f91e73bfcec":[6,0,0,183,20],
 "class_ogre_1_1_d3_d9_texture_manager.html#aae5cce977c3523af14bb17b3a954effd":[6,0,0,183,17],
 "class_ogre_1_1_d3_d9_texture_manager.html#aafa494d2704fdff05708db9db4bac3a0":[6,0,0,183,19],
-"class_ogre_1_1_d3_d9_texture_manager.html#ab194cb5e332fc3eb35591e468f5dbcd3":[6,0,0,183,28],
 "class_ogre_1_1_d3_d9_texture_manager.html#ab1c354fd2294c7c50b3f3e9ce42543f7":[6,0,0,183,50],
 "class_ogre_1_1_d3_d9_texture_manager.html#ab3d834cb2b240988c4fa8663763e444c":[6,0,0,183,6],
 "class_ogre_1_1_d3_d9_texture_manager.html#ab5ed4bffea6d80cb6618b8dbdd93feb5":[6,0,0,183,22],
@@ -112,9 +106,11 @@ var NAVTREEINDEX38 =
 "class_ogre_1_1_d3_d9_texture_manager.html#ae071093e2681923ddf1d661087b44e4d":[6,0,0,183,61],
 "class_ogre_1_1_d3_d9_texture_manager.html#ae63b06c1fd6d1266b4c5dacc35e521b4":[6,0,0,183,9],
 "class_ogre_1_1_d3_d9_texture_manager.html#aeaa1410333b7bcea14b00c360112a528":[6,0,0,183,42],
+"class_ogre_1_1_d3_d9_texture_manager.html#aec8fc8fae795d7410867f72f00813c79":[6,0,0,183,28],
 "class_ogre_1_1_d3_d9_texture_manager.html#af0d9aab8142b2dcf7f3f3afc35b1152e":[6,0,0,183,1],
 "class_ogre_1_1_d3_d9_texture_manager.html#af1a871ac005af0be0b8c1857a4f8eea9":[6,0,0,183,54],
 "class_ogre_1_1_d3_d9_texture_manager.html#af2cae9ecc99635a541df72ae7cdd337a":[6,0,0,183,25],
+"class_ogre_1_1_d3_d9_texture_manager.html#af30b8543978558d0a083778790f1fab2":[6,0,0,183,29],
 "class_ogre_1_1_d3_d9_texture_manager.html#af484f2b60c8d9bc87f37fa8af8e630c5":[6,0,0,183,0],
 "class_ogre_1_1_d3_d9_texture_manager.html#af4b66fba75a4c341bd1c1dd16decfec8":[6,0,0,183,10],
 "class_ogre_1_1_d3_d9_texture_manager.html#af6b68646abe6e9959072c1ece458ee55":[6,0,0,183,3],
@@ -249,5 +245,9 @@ var NAVTREEINDEX38 =
 "class_ogre_1_1_default_hardware_buffer_manager.html#a380063fef4a4563c90d45a03ac196dc7":[4,0,8,0,24],
 "class_ogre_1_1_default_hardware_buffer_manager.html#a3c89366be3029b2b7b174a0486cf3c3c":[4,0,8,0,22],
 "class_ogre_1_1_default_hardware_buffer_manager.html#a45fe3ad0964310d9b150d45eaddf67d3":[4,0,8,0,26],
-"class_ogre_1_1_default_hardware_buffer_manager.html#a4cd035da8caa2867d327ea9490f91c4d":[4,0,8,0,1]
+"class_ogre_1_1_default_hardware_buffer_manager.html#a4cd035da8caa2867d327ea9490f91c4d":[4,0,8,0,1],
+"class_ogre_1_1_default_hardware_buffer_manager.html#a4d907dd6ed467886ca7df6a188b73d4d":[4,0,8,0,10],
+"class_ogre_1_1_default_hardware_buffer_manager.html#a720b706017189d8a221b9ee1a6448628":[4,0,8,0,23],
+"class_ogre_1_1_default_hardware_buffer_manager.html#a763b65efa057185d7acbe073bf0e3610":[4,0,8,0,12],
+"class_ogre_1_1_default_hardware_buffer_manager.html#a8632cd79b8f18ed2b21bd6b474a49276":[4,0,8,0,17]
 };

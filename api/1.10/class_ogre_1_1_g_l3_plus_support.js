@@ -8,6 +8,8 @@ var class_ogre_1_1_g_l3_plus_support =
     [ "getConfigOptions", "class_ogre_1_1_g_l3_plus_support.html#a408d1cb15f56d600e90c8d6ad3dfdcf6", null ],
     [ "createWindow", "class_ogre_1_1_g_l3_plus_support.html#a89f6676c14d7d1253f03312e6d245bd3", null ],
     [ "newWindow", "class_ogre_1_1_g_l3_plus_support.html#a61e1dc4c71c937117c6a7839807e1fe9", null ],
+    [ "getStateCacheManager", "class_ogre_1_1_g_l3_plus_support.html#ab1a124da549ccae7d8a44c0f68c4cc11", null ],
+    [ "setStateCacheManager", "class_ogre_1_1_g_l3_plus_support.html#a333d356c5de0253c8203aba3ac255b9a", null ],
     [ "getGLVendor", "class_ogre_1_1_g_l3_plus_support.html#a4f3fafdabad72af66cf3261655f57539", null ],
     [ "getGLVersion", "class_ogre_1_1_g_l3_plus_support.html#a5566af30a8b739cb0999cb2b621e623b", null ],
     [ "getShaderCachePath", "class_ogre_1_1_g_l3_plus_support.html#ae8ab6e3c6ec507303135bc1a801d1276", null ],

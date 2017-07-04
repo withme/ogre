@@ -126,7 +126,7 @@ var _ogre_common_8h =
       [ "CLIPPED_SOME", "_ogre_common_8h.html#gga4acd510f26a9a302753cf95b35096527a51a98f8e33c40d47e8e3ec773cc5f907", null ],
       [ "CLIPPED_ALL", "_ogre_common_8h.html#gga4acd510f26a9a302753cf95b35096527aeea8d5632ece32bfb2f7791d0d64c136", null ]
     ] ],
-    [ "FastHash", "_ogre_common_8h.html#ga2be47c9c5b63cc7860edcec9b22e6f10", null ],
+    [ "FastHash", "_ogre_common_8h.html#ga57a98824058b136d9c27dbcdb963f7ba", null ],
     [ "HashCombine", "_ogre_common_8h.html#gae1e937aed630bd25446cbef3bdd2cc7c", null ],
     [ "operator<<", "_ogre_common_8h.html#ga6d67d46d838de3b38264f17fb792cddc", null ],
     [ "findCommandLineOpts", "_ogre_common_8h.html#gad78e25bde5597796c07e75d4f857a3cd", null ],

@@ -14,6 +14,7 @@ var class_ogre_1_1_g_l3_plus_hardware_buffer_manager_base =
     [ "createRenderToVertexBuffer", "class_ogre_1_1_g_l3_plus_hardware_buffer_manager_base.html#ab3d32910608c9c16f7329e5265b58849", null ],
     [ "getGLUsage", "class_ogre_1_1_g_l3_plus_hardware_buffer_manager_base.html#aee82ac0d4cf43eb48605bc9b237142d4", null ],
     [ "getGLType", "class_ogre_1_1_g_l3_plus_hardware_buffer_manager_base.html#a404e32ffb9d8d1231e130ffaa26d0cb3", null ],
+    [ "getStateCacheManager", "class_ogre_1_1_g_l3_plus_hardware_buffer_manager_base.html#a1f560045108ba15b8dfd15badda8b98e", null ],
     [ "allocateScratch", "class_ogre_1_1_g_l3_plus_hardware_buffer_manager_base.html#a99a2c62859bdadefc27a36e083f42553", null ],
     [ "deallocateScratch", "class_ogre_1_1_g_l3_plus_hardware_buffer_manager_base.html#ad143b9a6080a9146921fa97c3923447b", null ],
     [ "getGLMapBufferThreshold", "class_ogre_1_1_g_l3_plus_hardware_buffer_manager_base.html#ac9ef390e4249c22a6999459cd379494c", null ],

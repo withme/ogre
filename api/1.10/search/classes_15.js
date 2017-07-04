@@ -187,7 +187,7 @@ var searchData=
   ['vector_3c_20textureunitstate_20_2a_20_3e',['vector&lt; TextureUnitState * &gt;',['../struct_ogre_1_1vector.html',1,'Ogre']]],
   ['vector_3c_20triangle_20_3e',['vector&lt; Triangle &gt;',['../struct_ogre_1_1vector.html',1,'Ogre']]],
   ['vector_3c_20trianglecache_20_3e',['vector&lt; TriangleCache &gt;',['../struct_ogre_1_1vector.html',1,'Ogre']]],
-  ['vector_3c_20uint_20_3e',['vector&lt; UINT &gt;',['../struct_ogre_1_1vector.html',1,'Ogre::vector&lt; UINT &gt;'],['../struct_ogre_1_1vector.html',1,'Ogre::vector&lt; uint &gt;']]],
+  ['vector_3c_20uint_20_3e',['vector&lt; uint &gt;',['../struct_ogre_1_1vector.html',1,'Ogre::vector&lt; uint &gt;'],['../struct_ogre_1_1vector.html',1,'Ogre::vector&lt; UINT &gt;']]],
   ['vector_3c_20uint8_20_2a_20_3e',['vector&lt; uint8 * &gt;',['../struct_ogre_1_1vector.html',1,'Ogre']]],
   ['vector_3c_20uniformparameterptr_20_3e',['vector&lt; UniformParameterPtr &gt;',['../struct_ogre_1_1vector.html',1,'Ogre']]],
   ['vector_3c_20unsigned_20_3e',['vector&lt; unsigned &gt;',['../struct_ogre_1_1vector.html',1,'Ogre']]],

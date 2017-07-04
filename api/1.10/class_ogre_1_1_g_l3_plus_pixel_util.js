@@ -7,5 +7,5 @@ var class_ogre_1_1_g_l3_plus_pixel_util =
     [ "getGLImageInternalFormat", "class_ogre_1_1_g_l3_plus_pixel_util.html#ad0994ca6326b8f313059ff57fea4020a", null ],
     [ "getClosestGLImageInternalFormat", "class_ogre_1_1_g_l3_plus_pixel_util.html#a89ba138b4cc48a2227410ff0d75c34b3", null ],
     [ "getClosestOGREFormat", "class_ogre_1_1_g_l3_plus_pixel_util.html#a9015dbd63fa652afdb737d7c76b1a9c9", null ],
-    [ "getMaxMipmaps", "class_ogre_1_1_g_l3_plus_pixel_util.html#ac3c446b8d889a7517495b7463e643195", null ]
+    [ "getMaxMipmaps", "class_ogre_1_1_g_l3_plus_pixel_util.html#ab7a260589384f81faecb522c24c24407", null ]
 ];

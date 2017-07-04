@@ -1,5 +1,7 @@
 var NAVTREEINDEX115 =
 {
+"class_ogre_1_1_ring_emitter.html#a123c22ed81e96c90b5cb096d11e26aae":[4,2,6,14,13],
+"class_ogre_1_1_ring_emitter.html#a18544aba1642ac02cd2d50847a3f35b9":[4,2,6,14,77],
 "class_ogre_1_1_ring_emitter.html#a1896a0f1ff5f6bd2820aa603462d3894":[4,2,6,14,26],
 "class_ogre_1_1_ring_emitter.html#a1bea65fa2b3c2ac5a9f3be59b46a80e8":[4,2,6,14,85],
 "class_ogre_1_1_ring_emitter.html#a1c17e03466492e1983a439eb7e540e25":[4,2,6,14,2],
@@ -107,10 +109,10 @@ var NAVTREEINDEX115 =
 "class_ogre_1_1_ring_emitter_1_1_cmd_inner_y.html":[4,2,6,14,1],
 "class_ogre_1_1_ring_emitter_1_1_cmd_inner_y.html#a94d3ba9639d268c505953c24fed4f0cb":[4,2,6,14,1,0],
 "class_ogre_1_1_ring_emitter_1_1_cmd_inner_y.html#ae13ec40db52827a9ef5c638522ecfa8d":[4,2,6,14,1,1],
-"class_ogre_1_1_ring_emitter_factory.html":[6,0,0,726],
-"class_ogre_1_1_ring_emitter_factory.html#adc0b5ab2657292efbdb4bc6e6e6a2462":[6,0,0,726,2],
-"class_ogre_1_1_ring_emitter_factory.html#add020512c1bc26113414c3af7277afa8":[6,0,0,726,1],
-"class_ogre_1_1_ring_emitter_factory.html#afa293ba59f547300f4a88cabca3044d5":[6,0,0,726,0],
+"class_ogre_1_1_ring_emitter_factory.html":[6,0,0,724],
+"class_ogre_1_1_ring_emitter_factory.html#adc0b5ab2657292efbdb4bc6e6e6a2462":[6,0,0,724,2],
+"class_ogre_1_1_ring_emitter_factory.html#add020512c1bc26113414c3af7277afa8":[6,0,0,724,1],
+"class_ogre_1_1_ring_emitter_factory.html#afa293ba59f547300f4a88cabca3044d5":[6,0,0,724,0],
 "class_ogre_1_1_root.html":[4,0,2,82],
 "class_ogre_1_1_root.html#a01d3244dcf290c2db36aea6b0c63616a":[4,0,2,82,61],
 "class_ogre_1_1_root.html#a06b786d8e0847dfe9cc15e1dea308fcd":[4,0,2,82,97],
@@ -247,7 +249,5 @@ var NAVTREEINDEX115 =
 "class_ogre_1_1_rotation_affector_1_1_cmd_rotation_speed_range_start.html":[4,2,6,15,3],
 "class_ogre_1_1_rotation_affector_1_1_cmd_rotation_speed_range_start.html#a0fd6875815da11f3bef9adb71d9bb668":[4,2,6,15,3,1],
 "class_ogre_1_1_rotation_affector_1_1_cmd_rotation_speed_range_start.html#a51272ed90c14a2a74628801269e03e99":[4,2,6,15,3,0],
-"class_ogre_1_1_rotation_affector_factory.html":[6,0,0,729],
-"class_ogre_1_1_rotation_affector_factory.html#a073f267f4efff156cac2d0a2ef40f7dd":[6,0,0,729,0],
-"class_ogre_1_1_rotational_spline.html":[4,0,6,20]
+"class_ogre_1_1_rotation_affector_factory.html":[6,0,0,727]
 };

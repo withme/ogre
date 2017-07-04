@@ -12,5 +12,6 @@ var class_ogre_1_1_g_l_s_l_monolithic_program_manager =
     [ "getSingleton", "class_ogre_1_1_g_l_s_l_monolithic_program_manager.html#acd47abb61693682baed166f92a188997", null ],
     [ "getSingletonPtr", "class_ogre_1_1_g_l_s_l_monolithic_program_manager.html#aef06ad45e8e9fed0b3a987b864c926c0", null ],
     [ "extractUniformsFromProgram", "class_ogre_1_1_g_l_s_l_monolithic_program_manager.html#a11f0b6470f345cdc87e85821856d5042", null ],
-    [ "extractUniformsFromGLSL", "class_ogre_1_1_g_l_s_l_monolithic_program_manager.html#a63938323d0abadeecd75beb6ea86b054", null ]
+    [ "extractUniformsFromGLSL", "class_ogre_1_1_g_l_s_l_monolithic_program_manager.html#a63938323d0abadeecd75beb6ea86b054", null ],
+    [ "getGLSupportRef", "class_ogre_1_1_g_l_s_l_monolithic_program_manager.html#a73609863348620c7073b7b055dba9674", null ]
 ];

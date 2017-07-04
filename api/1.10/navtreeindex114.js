@@ -1,5 +1,7 @@
 var NAVTREEINDEX114 =
 {
+"class_ogre_1_1_resource_group_manager.html#a9e4806c5e7c292b12dca011b366914ab":[4,0,9,34,63],
+"class_ogre_1_1_resource_group_manager.html#a9e7c5dfc9905d1eee64289d9dc0fa6a5":[4,0,9,34,43],
 "class_ogre_1_1_resource_group_manager.html#aa001f2022fdbb01cccb192195873fa6a":[4,0,9,34,31],
 "class_ogre_1_1_resource_group_manager.html#aa23341956695b437434a782e13ad89f4":[4,0,9,34,33],
 "class_ogre_1_1_resource_group_manager.html#aad024c2671b6d65b21fb00e062088f29":[4,0,9,34,29],
@@ -247,7 +249,5 @@ var NAVTREEINDEX114 =
 "class_ogre_1_1_ribbon_trail_factory.html#afa15dea351429a75bc3e1c3322133489":[4,0,1,30,1],
 "class_ogre_1_1_ring_emitter.html":[4,2,6,14],
 "class_ogre_1_1_ring_emitter.html#a0c27fc47afc5857aecf9558ee88bbc0b":[4,2,6,14,7],
-"class_ogre_1_1_ring_emitter.html#a0cdad11e98fe6af5c36ca88b83e439ac":[4,2,6,14,40],
-"class_ogre_1_1_ring_emitter.html#a123c22ed81e96c90b5cb096d11e26aae":[4,2,6,14,13],
-"class_ogre_1_1_ring_emitter.html#a18544aba1642ac02cd2d50847a3f35b9":[4,2,6,14,77]
+"class_ogre_1_1_ring_emitter.html#a0cdad11e98fe6af5c36ca88b83e439ac":[4,2,6,14,40]
 };

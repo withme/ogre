@@ -1,9 +1,5 @@
 var NAVTREEINDEX23 =
 {
-"class_ogre_1_1_colour_fader_affector2_1_1_cmd_blue_adjust2.html":[4,2,6,3,3],
-"class_ogre_1_1_colour_fader_affector2_1_1_cmd_blue_adjust2.html#a3887b68bb74dacce16358e06e3892efa":[4,2,6,3,3,0],
-"class_ogre_1_1_colour_fader_affector2_1_1_cmd_blue_adjust2.html#aba4e65a37e07cce608bc7c183e8e063c":[4,2,6,3,3,1],
-"class_ogre_1_1_colour_fader_affector2_1_1_cmd_green_adjust1.html":[4,2,6,3,4],
 "class_ogre_1_1_colour_fader_affector2_1_1_cmd_green_adjust1.html#a51cd78c8c55020d394761d1a51e8c010":[4,2,6,3,4,1],
 "class_ogre_1_1_colour_fader_affector2_1_1_cmd_green_adjust1.html#a6c072bbe65b8139b1691ade6772444d2":[4,2,6,3,4,0],
 "class_ogre_1_1_colour_fader_affector2_1_1_cmd_green_adjust2.html":[4,2,6,3,5],
@@ -249,5 +245,9 @@ var NAVTREEINDEX23 =
 "class_ogre_1_1_composition_target_pass_translator.html":[4,0,2,13],
 "class_ogre_1_1_composition_target_pass_translator.html#a779e7d6c58344586c1c7f931fbfca7be":[4,0,2,13,1],
 "class_ogre_1_1_composition_target_pass_translator.html#aa321733029e10ff83e50055ec3314081":[4,0,2,13,0],
-"class_ogre_1_1_composition_technique.html":[4,0,1,10]
+"class_ogre_1_1_composition_technique.html":[4,0,1,10],
+"class_ogre_1_1_composition_technique.html#a03d4c71942abef880d9b2c9e363fe259":[4,0,1,10,13],
+"class_ogre_1_1_composition_technique.html#a07fe9d82291bef342e223b765a88a5f1":[4,0,1,10,14],
+"class_ogre_1_1_composition_technique.html#a13b52dbaf483cd1ab0eec9edbef078e2":[4,0,1,10,16],
+"class_ogre_1_1_composition_technique.html#a13d2bcb0ecbd440325621b809becd2c4":[4,0,1,10,23]
 };

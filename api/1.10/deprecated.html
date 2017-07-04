@@ -34,7 +34,7 @@
   <td id="projectlogo"><img alt="Logo" src="ogre-logo-wetfloor.gif"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">OGRE
-   &#160;<span id="projectnumber">1.10.4</span>
+   &#160;<span id="projectnumber">1.10.7</span>
    </div>
    <div id="projectbrief">Object-Oriented Graphics Rendering Engine</div>
   </td>
@@ -176,9 +176,9 @@ $(document).ready(function(){initNavTree('deprecated.html','');});
 <dd>do not use  </dd>
 <dt><a class="anchor" id="_deprecated000045"></a>Class <a class="el" href="struct_ogre_1_1_const_vector_range.html">Ogre::ConstVectorRange&lt; T &gt;</a>  </dt>
 <dd>do not use  </dd>
-<dt><a class="anchor" id="_deprecated000034"></a>Member <a class="el" href="class_ogre_1_1_entity.html#a7feae6b7226cc998c7bf6836c47a3690">Ogre::Entity::getNumSubEntities</a>  (void) const </dt>
+<dt><a class="anchor" id="_deprecated000034"></a>Member <a class="el" href="class_ogre_1_1_entity.html#a7a1dce813d98a3fa673d2325f2adc569">Ogre::Entity::getNumSubEntities</a>  (void) const </dt>
 <dd>use <a class="el" href="class_ogre_1_1_entity.html#abd017dfd8ac832b0dd29a16d1ebc2c37" title="Retrieves SubEntity objects making up this entity. ">getSubEntities()</a>  </dd>
-<dt><a class="anchor" id="_deprecated000033"></a>Member <a class="el" href="class_ogre_1_1_entity.html#a38b4ae5e0a39a1088a47cda113cbb4e2">Ogre::Entity::getSubEntity</a>  (unsigned int index) const </dt>
+<dt><a class="anchor" id="_deprecated000033"></a>Member <a class="el" href="class_ogre_1_1_entity.html#ae6b27757e0f10503db9479bec749a0be">Ogre::Entity::getSubEntity</a>  (size_t index) const </dt>
 <dd>use <a class="el" href="class_ogre_1_1_entity.html#abd017dfd8ac832b0dd29a16d1ebc2c37" title="Retrieves SubEntity objects making up this entity. ">getSubEntities()</a>  </dd>
 <dt><a class="anchor" id="_deprecated000035"></a>Class <a class="el" href="class_ogre_1_1_error_dialog.html">Ogre::ErrorDialog</a>  </dt>
 <dd>this class will be gone in a future release  </dd>
@@ -236,7 +236,7 @@ $(document).ready(function(){initNavTree('deprecated.html','');});
 <dd>use <a class="el" href="class_ogre_1_1_user_object_bindings.html#a9c4b12b7ceeddd3a6f28dae1ac8d09a2" title="Retrieves the custom key less user object associated with this class. ">UserObjectBindings::getUserAny</a> via <a class="el" href="class_ogre_1_1_node.html#af3fcf16e43b07e046816125cbb8dc8f3" title="Return an instance of user objects binding associated with this class. ">getUserObjectBindings()</a> instead. </dd>
 <dt><a class="anchor" id="_deprecated000065"></a>Member <a class="el" href="class_ogre_1_1_node.html#a2fdf947d54d8b67b5fef19d68da899ae">Ogre::Node::setUserAny</a>  (const <a class="el" href="class_ogre_1_1_any.html" title="Variant type that can hold Any other type. ">Any</a> &amp;anything)</dt>
 <dd>use <a class="el" href="class_ogre_1_1_user_object_bindings.html#ac6d05bbca44c5c3b44860c36205f9a68" title="Sets any kind of user object on this class instance. ">UserObjectBindings::setUserAny</a> via <a class="el" href="class_ogre_1_1_node.html#af3fcf16e43b07e046816125cbb8dc8f3" title="Return an instance of user objects binding associated with this class. ">getUserObjectBindings()</a> instead. </dd>
-<dt><a class="anchor" id="_deprecated000151"></a>Member <a class="el" href="class_ogre_1_1_overlay.html#a659220630fe743a8359455f31640b465">Ogre::Overlay::get2DElementsIterator</a>  ()</dt>
+<dt><a class="anchor" id="_deprecated000152"></a>Member <a class="el" href="class_ogre_1_1_overlay.html#a659220630fe743a8359455f31640b465">Ogre::Overlay::get2DElementsIterator</a>  ()</dt>
 <dd>use <a class="el" href="class_ogre_1_1_overlay.html#a0ae2dde07d63a5f6b12706fc95c98f6c" title="Returns all 2D elements in this manager. ">get2DElements()</a>  </dd>
 <dt><a class="anchor" id="_deprecated000071"></a>Member <a class="el" href="class_ogre_1_1_pass.html#a7e89e46903cc53d61ca5b9e8188ff686">Ogre::Pass::getNumTextureUnitStates</a>  (void) const </dt>
 <dd>use <a class="el" href="class_ogre_1_1_pass.html#abddd055534865aa763c7c202f7b51b79" title="Get the TextureUnitStates contained in this Pass. ">getTextureUnitStates()</a>  </dd>
@@ -352,11 +352,11 @@ $(document).ready(function(){initNavTree('deprecated.html','');});
 <dd>All targetted APIs by <a class="el" href="namespace_ogre.html">Ogre</a> support this feature  </dd>
 <dt><a class="anchor" id="_deprecated000096"></a>Member <a class="el" href="group___render_system.html#gga3d2965b7f378ebdcfe8a4a6cf74c3de7a23d49e82353f9f12ec907408f64ecc46">Ogre::RSC_VBO</a>  </dt>
 <dd>All targetted APIs by <a class="el" href="namespace_ogre.html">Ogre</a> support this feature  </dd>
-<dt><a class="anchor" id="_deprecated000154"></a>Member <a class="el" href="class_ogre_1_1_r_t_shader_1_1_shader_generator.html#a7044e60dc46f2ea74dc7b1d7991fc5bb">Ogre::RTShader::ShaderGenerator::createShaderBasedTechnique</a>  (const String &amp;materialName, const String &amp;srcTechniqueSchemeName, const String &amp;dstTechniqueSchemeName, bool overProgrammable=false)</dt>
+<dt><a class="anchor" id="_deprecated000156"></a>Member <a class="el" href="class_ogre_1_1_r_t_shader_1_1_shader_generator.html#a703b5aa6aa302228ecc73f32467bc8ea">Ogre::RTShader::ShaderGenerator::createShaderBasedTechnique</a>  (const String &amp;materialName, const String &amp;groupName, const String &amp;srcTechniqueSchemeName, const String &amp;dstTechniqueSchemeName, bool overProgrammable=false)</dt>
 <dd>use <a class="el" href="class_ogre_1_1_r_t_shader_1_1_shader_generator.html#af02d3e93da75e66ed3312b5790d18868" title="Create shader based technique from a given technique. ">ShaderGenerator::createShaderBasedTechnique</a>(srcMat, ...)  </dd>
-<dt><a class="anchor" id="_deprecated000155"></a>Member <a class="el" href="class_ogre_1_1_r_t_shader_1_1_shader_generator.html#a703b5aa6aa302228ecc73f32467bc8ea">Ogre::RTShader::ShaderGenerator::createShaderBasedTechnique</a>  (const String &amp;materialName, const String &amp;groupName, const String &amp;srcTechniqueSchemeName, const String &amp;dstTechniqueSchemeName, bool overProgrammable=false)</dt>
+<dt><a class="anchor" id="_deprecated000155"></a>Member <a class="el" href="class_ogre_1_1_r_t_shader_1_1_shader_generator.html#a7044e60dc46f2ea74dc7b1d7991fc5bb">Ogre::RTShader::ShaderGenerator::createShaderBasedTechnique</a>  (const String &amp;materialName, const String &amp;srcTechniqueSchemeName, const String &amp;dstTechniqueSchemeName, bool overProgrammable=false)</dt>
 <dd>use <a class="el" href="class_ogre_1_1_r_t_shader_1_1_shader_generator.html#af02d3e93da75e66ed3312b5790d18868" title="Create shader based technique from a given technique. ">ShaderGenerator::createShaderBasedTechnique</a>(srcMat, ...)  </dd>
-<dt><a class="anchor" id="_deprecated000153"></a>Member <a class="el" href="class_ogre_1_1_r_t_shader_1_1_shader_generator.html#a5a8411a397a86916e6515fc953f59b9f">Ogre::RTShader::ShaderGenerator::getRenderState</a>  (const String &amp;schemeName, const String &amp;materialName, unsigned short passIndex)</dt>
+<dt><a class="anchor" id="_deprecated000154"></a>Member <a class="el" href="class_ogre_1_1_r_t_shader_1_1_shader_generator.html#a5a8411a397a86916e6515fc953f59b9f">Ogre::RTShader::ShaderGenerator::getRenderState</a>  (const String &amp;schemeName, const String &amp;materialName, unsigned short passIndex)</dt>
 <dd>use <a class="el" href="class_ogre_1_1_r_t_shader_1_1_shader_generator.html#a3d7167dbc5b45f11cae4a5dc61c0a823" title="Return a global render state associated with the given scheme name. ">ShaderGenerator::getRenderState</a>(const String&amp; schemeName, const String&amp; materialName, const String&amp; groupName, ...)  </dd>
 <dt><a class="anchor" id="_deprecated000127"></a>Member <a class="el" href="class_ogre_1_1_scene_manager.html#aaf98f349389bbdd1c3fb25c418e56887">Ogre::SceneManager::createInstancedGeometry</a>  (const String &amp;name)</dt>
 <dd><a class="el" href="class_ogre_1_1_scene_manager.html#a5192bd4a4b82ac04c8ea59d4549d5419" title="Creates an InstanceManager interface to create &amp; manipulate instanced entities You need to call this ...">createInstanceManager()</a> with <a class="el" href="group___scene.html#gga98fb2a9ada779b56d48f74040e96a622adfd14a6d905e8f639010dceb63fd6a99" title="Any SM 2.0+. ">InstanceManager::ShaderBased</a> instead  </dd>
@@ -404,7 +404,7 @@ $(document).ready(function(){initNavTree('deprecated.html','');});
 <dd>use <a class="el" href="class_ogre_1_1_technique.html#a11264fff070d34badfa0ed6c50725481" title="Gets the passes in this Technique. ">getPasses()</a>  </dd>
 <dt><a class="anchor" id="_deprecated000143"></a>Member <a class="el" href="class_ogre_1_1_technique.html#a84f0ff4e856f6965c7ae8dcab67e6cf2">Ogre::Technique::getPassIterator</a>  (void)</dt>
 <dd>use <a class="el" href="class_ogre_1_1_technique.html#a11264fff070d34badfa0ed6c50725481" title="Gets the passes in this Technique. ">getPasses()</a>  </dd>
-<dt><a class="anchor" id="_deprecated000152"></a>Member <a class="el" href="class_ogre_1_1_text_area_overlay_element.html#a7c8e8b3c00a872debbd79764ee251447">Ogre::TextAreaOverlayElement::getFontName</a>  () const </dt>
+<dt><a class="anchor" id="_deprecated000153"></a>Member <a class="el" href="class_ogre_1_1_text_area_overlay_element.html#a7c8e8b3c00a872debbd79764ee251447">Ogre::TextAreaOverlayElement::getFontName</a>  () const </dt>
 <dd>use <a class="el" href="class_ogre_1_1_text_area_overlay_element.html#a7b742947282fe49ff3e769ee7f750113">getFont()</a>  </dd>
 <dt><a class="anchor" id="_deprecated000147"></a>Member <a class="el" href="class_ogre_1_1_unified_high_level_gpu_program.html#ad8299679cbe893344dbccf43b51732dd">Ogre::UnifiedHighLevelGpuProgram::setPrioriry</a>  (String shaderLanguage, int priority)</dt>
 <dd>use <a class="el" href="class_ogre_1_1_unified_high_level_gpu_program.html#ae63096cfba4541bb688d178571c422b0">UnifiedHighLevelGpuProgram::setPriority</a>  </dd>
@@ -412,11 +412,13 @@ $(document).ready(function(){initNavTree('deprecated.html','');});
 <dd>do not use  </dd>
 <dt><a class="anchor" id="_deprecated000036"></a>Member <a class="el" href="group___general.html#ga158d9c8ba6320aa37b7c9c05a2f2fd8f">OGRE_EXCEPT_EX</a>  (code, num, desc, src)</dt>
 <dd>do not use  </dd>
-<dt><a class="anchor" id="_deprecated000149"></a>Member <a class="el" href="class_ogre_bites_1_1_tray_manager.html#a2da9a506a871e4c97cb0d94f2f821440">OgreBites::TrayManager::getNumWidgets</a>  (TrayLocation trayLoc)</dt>
+<dt><a class="anchor" id="_deprecated000148"></a>Member <a class="el" href="class_ogre_bites_1_1_select_menu.html#a6fa382a271e5d57183b16cbf7a888d4e">OgreBites::SelectMenu::getItemsCount</a>  ()</dt>
+<dd>use getNumItems  </dd>
+<dt><a class="anchor" id="_deprecated000150"></a>Member <a class="el" href="class_ogre_bites_1_1_tray_manager.html#a2da9a506a871e4c97cb0d94f2f821440">OgreBites::TrayManager::getNumWidgets</a>  (TrayLocation trayLoc)</dt>
 <dd>use <a class="el" href="class_ogre_bites_1_1_tray_manager.html#ae91c490357d13e0f46112dfe85c2a358" title="Gets all the widgets of a specific tray. ">getWidgets()</a> instead  </dd>
-<dt><a class="anchor" id="_deprecated000148"></a>Member <a class="el" href="class_ogre_bites_1_1_tray_manager.html#a4024ff85dac37aca2ab1a65e4412adc6">OgreBites::TrayManager::getWidget</a>  (TrayLocation trayLoc, unsigned int place)</dt>
+<dt><a class="anchor" id="_deprecated000149"></a>Member <a class="el" href="class_ogre_bites_1_1_tray_manager.html#a4024ff85dac37aca2ab1a65e4412adc6">OgreBites::TrayManager::getWidget</a>  (TrayLocation trayLoc, unsigned int place)</dt>
 <dd>use <a class="el" href="class_ogre_bites_1_1_tray_manager.html#ae91c490357d13e0f46112dfe85c2a358" title="Gets all the widgets of a specific tray. ">getWidgets()</a> instead  </dd>
-<dt><a class="anchor" id="_deprecated000150"></a>Member <a class="el" href="class_ogre_bites_1_1_tray_manager.html#af968c01a627ee654409f558e4ef55537">OgreBites::TrayManager::getWidgetIterator</a>  (TrayLocation trayLoc)</dt>
+<dt><a class="anchor" id="_deprecated000151"></a>Member <a class="el" href="class_ogre_bites_1_1_tray_manager.html#af968c01a627ee654409f558e4ef55537">OgreBites::TrayManager::getWidgetIterator</a>  (TrayLocation trayLoc)</dt>
 <dd>use <a class="el" href="class_ogre_bites_1_1_tray_manager.html#ae91c490357d13e0f46112dfe85c2a358" title="Gets all the widgets of a specific tray. ">getWidgets()</a> instead </dd>
 </dl>
 </div></div><!-- contents -->

@@ -17,5 +17,6 @@ var class_ogre_1_1_g_l_s_l_shader =
     [ "bindPassIterationParameters", "class_ogre_1_1_g_l_s_l_shader.html#ab493a298d4f1b39ee61d9e1ae56dc3c8", null ],
     [ "bindSharedParameters", "class_ogre_1_1_g_l_s_l_shader.html#a34085ac655a0d39b22efcf002b98813b", null ],
     [ "calculateSize", "class_ogre_1_1_g_l_s_l_shader.html#a3f1368ff51c34b8d6d680ce47b704b9e", null ],
-    [ "_getBindingDelegate", "class_ogre_1_1_g_l_s_l_shader.html#acbc410161f71117c022b4179ec6f1c88", null ]
+    [ "_getBindingDelegate", "class_ogre_1_1_g_l_s_l_shader.html#acbc410161f71117c022b4179ec6f1c88", null ],
+    [ "getUniformCache", "class_ogre_1_1_g_l_s_l_shader.html#a5cb9690e39a46874bddce14be46cac3a", null ]
 ];

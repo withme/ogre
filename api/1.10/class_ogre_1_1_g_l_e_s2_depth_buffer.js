@@ -5,10 +5,10 @@ var class_ogre_1_1_g_l_e_s2_depth_buffer =
       [ "POOL_MANUAL_USAGE", "class_ogre_1_1_g_l_e_s2_depth_buffer.html#gga9854c57374adef41216bae68544a5b7ea2d5409ddce167e1db415f09ee2160440", null ],
       [ "POOL_DEFAULT", "class_ogre_1_1_g_l_e_s2_depth_buffer.html#gga9854c57374adef41216bae68544a5b7ea00a687046bfe7a9ebd7f34256d3fbcca", null ]
     ] ],
-    [ "GLES2DepthBuffer", "class_ogre_1_1_g_l_e_s2_depth_buffer.html#ab1624b3495b48cd25ab0f4bb73869e1d", null ],
+    [ "GLES2DepthBuffer", "class_ogre_1_1_g_l_e_s2_depth_buffer.html#ad72ade4d2d7dd0fb9949eac44f3000b9", null ],
     [ "~GLES2DepthBuffer", "class_ogre_1_1_g_l_e_s2_depth_buffer.html#a1f1b828e6892d32f7e3de94e510c151e", null ],
     [ "isCompatible", "class_ogre_1_1_g_l_e_s2_depth_buffer.html#a77ccb242b89e4df36081b73b891d02e2", null ],
-    [ "getGLContext", "class_ogre_1_1_g_l_e_s2_depth_buffer.html#a484a0511034e0ef87b3d9b4701fd5d35", null ],
+    [ "getGLContext", "class_ogre_1_1_g_l_e_s2_depth_buffer.html#ae8df45a1a0b927eb9611db21dbd2bce5", null ],
     [ "getDepthBuffer", "class_ogre_1_1_g_l_e_s2_depth_buffer.html#a80550d34c67371c01852da1028470832", null ],
     [ "getStencilBuffer", "class_ogre_1_1_g_l_e_s2_depth_buffer.html#aca66b567f8c9c28b94371c6aa5878307", null ],
     [ "_setPoolId", "class_ogre_1_1_g_l_e_s2_depth_buffer.html#ga7af5c611687492846891914dcac303d2", null ],

@@ -18,6 +18,7 @@ var searchData=
   ['map_3c_20d3d11hlslprogram_20_2a_2c_20vector_3c_20d3d11_5finput_5felement_5fdesc_20_3e_3a_3atype_20_3e',['map&lt; D3D11HLSLProgram *, vector&lt; D3D11_INPUT_ELEMENT_DESC &gt;::type &gt;',['../struct_ogre_1_1map.html',1,'Ogre']]],
   ['map_3c_20d3d9renderwindow_20_2a_2c_20renderwindowresources_20_2a_20_3e',['map&lt; D3D9RenderWindow *, RenderWindowResources * &gt;',['../struct_ogre_1_1map.html',1,'Ogre']]],
   ['map_3c_20functioninvocation_2c_20string_20_3e',['map&lt; FunctionInvocation, String &gt;',['../struct_ogre_1_1map.html',1,'Ogre']]],
+  ['map_3c_20glcontext_20_2a_2c_20gl3plusstatecachemanager_20_3e',['map&lt; GLContext *, GL3PlusStateCacheManager &gt;',['../struct_ogre_1_1map.html',1,'Ogre']]],
   ['map_3c_20glcontext_20_2a_2c_20glstatecachemanager_20_3e',['map&lt; GLContext *, GLStateCacheManager &gt;',['../struct_ogre_1_1map.html',1,'Ogre']]],
   ['map_3c_20gpuconstanttype_2c_20const_20char_20_2a_20_3e',['map&lt; GpuConstantType, const char * &gt;',['../struct_ogre_1_1map.html',1,'Ogre']]],
   ['map_3c_20gpusharedparametersptr_2c_20hardwareuniformbuffersharedptr_20_3e',['map&lt; GpuSharedParametersPtr, HardwareUniformBufferSharedPtr &gt;',['../struct_ogre_1_1map.html',1,'Ogre']]],

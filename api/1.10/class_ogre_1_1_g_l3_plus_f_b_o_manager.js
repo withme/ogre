@@ -9,6 +9,7 @@ var class_ogre_1_1_g_l3_plus_f_b_o_manager =
     [ "createMultiRenderTarget", "class_ogre_1_1_g_l3_plus_f_b_o_manager.html#a3b7e9354b1d2e8d6c10f48b567513660", null ],
     [ "requestRenderBuffer", "class_ogre_1_1_g_l3_plus_f_b_o_manager.html#ae9e6f3a54e87da33aeb9517613ce8a6a", null ],
     [ "getTemporaryFBO", "class_ogre_1_1_g_l3_plus_f_b_o_manager.html#a49b1ad2e1c030cf7d7f434a11b388f08", null ],
+    [ "getGLSupportRef", "class_ogre_1_1_g_l3_plus_f_b_o_manager.html#a774e9759caee2522160a58ee75cb617b", null ],
     [ "requestRenderBuffer", "class_ogre_1_1_g_l3_plus_f_b_o_manager.html#a504c80a2895172b678f8adadf780d3a5", null ],
     [ "releaseRenderBuffer", "class_ogre_1_1_g_l3_plus_f_b_o_manager.html#a0354371ab551607aaeb6bffc888e7925", null ],
     [ "checkFormat", "class_ogre_1_1_g_l3_plus_f_b_o_manager.html#ad5dca17a79a3b69e8fb5ea5f303c0379", null ],

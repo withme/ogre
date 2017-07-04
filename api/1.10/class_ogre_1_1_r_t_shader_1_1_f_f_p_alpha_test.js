@@ -1,6 +1,5 @@
 var class_ogre_1_1_r_t_shader_1_1_f_f_p_alpha_test =
 [
-    [ "FFPAlphaTest", "class_ogre_1_1_r_t_shader_1_1_f_f_p_alpha_test.html#ad685872ded7ba7b62a191a2e5979dbc1", null ],
     [ "getType", "class_ogre_1_1_r_t_shader_1_1_f_f_p_alpha_test.html#a0aa840e749764e753a3e6418578a1b7f", null ],
     [ "getExecutionOrder", "class_ogre_1_1_r_t_shader_1_1_f_f_p_alpha_test.html#a559cf757a4e3f1c8815e6eb42c6451dc", null ],
     [ "preAddToRenderState", "class_ogre_1_1_r_t_shader_1_1_f_f_p_alpha_test.html#a282fdd1db596a8231050b57da209c4e2", null ],

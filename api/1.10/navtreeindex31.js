@@ -1,9 +1,5 @@
 var NAVTREEINDEX31 =
 {
-"class_ogre_1_1_d3_d11_render_window_swap_chain_based.html#af6517fc9bc27d14300afb70aceabb737":[6,0,0,143,84],
-"class_ogre_1_1_d3_d11_render_window_swap_chain_based.html#af8615122f9bc57a80ffc8c73a75d2852":[6,0,0,143,32],
-"class_ogre_1_1_d3_d11_render_window_swap_chain_based.html#af9153ad94900ca36534f25537b35a9cd":[6,0,0,143,30],
-"class_ogre_1_1_d3_d11_render_window_swap_chain_based.html#af98598627ee70b9b22ce7e095fb04b3c":[6,0,0,143,89],
 "class_ogre_1_1_d3_d11_render_window_swap_chain_based.html#afb7ac36166a3e7c38a102edc6e7d2c1d":[6,0,0,143,77],
 "class_ogre_1_1_d3_d11_rendering_a_p_i_exception.html":[6,0,0,138],
 "class_ogre_1_1_d3_d11_rendering_a_p_i_exception.html#a01188c597faf46e2637999aa205c1862":[6,0,0,138,4],
@@ -180,7 +176,6 @@ var NAVTREEINDEX31 =
 "class_ogre_1_1_d3_d11_texture_manager.html#a3083fb17ce51843aecdc0382d2d717f6":[6,0,0,149,18],
 "class_ogre_1_1_d3_d11_texture_manager.html#a379c3ff20c97fcd13db3bc7841b4b560":[6,0,0,149,16],
 "class_ogre_1_1_d3_d11_texture_manager.html#a3a55789d982b34bdd9daa27650360653":[6,0,0,149,31],
-"class_ogre_1_1_d3_d11_texture_manager.html#a3cc7b930d37bc9fc156f7a2cadb572a3":[6,0,0,149,29],
 "class_ogre_1_1_d3_d11_texture_manager.html#a40769092850d5b296e1d1a9190631700":[6,0,0,149,53],
 "class_ogre_1_1_d3_d11_texture_manager.html#a4350b30d83790f208a9fdd1197ce9c95":[6,0,0,149,14],
 "class_ogre_1_1_d3_d11_texture_manager.html#a4a16604e10cd71957fcce705dead9a2c":[6,0,0,149,59],
@@ -213,7 +208,6 @@ var NAVTREEINDEX31 =
 "class_ogre_1_1_d3_d11_texture_manager.html#aac423b67b8c1aa00cd6a3f91e73bfcec":[6,0,0,149,20],
 "class_ogre_1_1_d3_d11_texture_manager.html#aae5cce977c3523af14bb17b3a954effd":[6,0,0,149,17],
 "class_ogre_1_1_d3_d11_texture_manager.html#aafa494d2704fdff05708db9db4bac3a0":[6,0,0,149,19],
-"class_ogre_1_1_d3_d11_texture_manager.html#ab194cb5e332fc3eb35591e468f5dbcd3":[6,0,0,149,28],
 "class_ogre_1_1_d3_d11_texture_manager.html#ab1c354fd2294c7c50b3f3e9ce42543f7":[6,0,0,149,50],
 "class_ogre_1_1_d3_d11_texture_manager.html#ab5ed4bffea6d80cb6618b8dbdd93feb5":[6,0,0,149,22],
 "class_ogre_1_1_d3_d11_texture_manager.html#abbb523a827bc6ea90d3b5ec80f0cf770":[6,0,0,149,67],
@@ -227,9 +221,11 @@ var NAVTREEINDEX31 =
 "class_ogre_1_1_d3_d11_texture_manager.html#ae071093e2681923ddf1d661087b44e4d":[6,0,0,149,61],
 "class_ogre_1_1_d3_d11_texture_manager.html#ae63b06c1fd6d1266b4c5dacc35e521b4":[6,0,0,149,9],
 "class_ogre_1_1_d3_d11_texture_manager.html#aeaa1410333b7bcea14b00c360112a528":[6,0,0,149,42],
+"class_ogre_1_1_d3_d11_texture_manager.html#aec8fc8fae795d7410867f72f00813c79":[6,0,0,149,28],
 "class_ogre_1_1_d3_d11_texture_manager.html#af0d9aab8142b2dcf7f3f3afc35b1152e":[6,0,0,149,1],
 "class_ogre_1_1_d3_d11_texture_manager.html#af1a871ac005af0be0b8c1857a4f8eea9":[6,0,0,149,54],
 "class_ogre_1_1_d3_d11_texture_manager.html#af2cae9ecc99635a541df72ae7cdd337a":[6,0,0,149,25],
+"class_ogre_1_1_d3_d11_texture_manager.html#af30b8543978558d0a083778790f1fab2":[6,0,0,149,29],
 "class_ogre_1_1_d3_d11_texture_manager.html#af484f2b60c8d9bc87f37fa8af8e630c5":[6,0,0,149,0],
 "class_ogre_1_1_d3_d11_texture_manager.html#af4b66fba75a4c341bd1c1dd16decfec8":[6,0,0,149,10],
 "class_ogre_1_1_d3_d11_texture_manager.html#af6b68646abe6e9959072c1ece458ee55":[6,0,0,149,3],
@@ -249,5 +245,9 @@ var NAVTREEINDEX31 =
 "class_ogre_1_1_d3_d11_vertex_declaration.html#a670466fe9bcfc426ccefb5395a3a82ef":[6,0,0,150,10],
 "class_ogre_1_1_d3_d11_vertex_declaration.html#a7ee49d2d72f0b802fb94bebd216dd8ab":[6,0,0,150,16],
 "class_ogre_1_1_d3_d11_vertex_declaration.html#a8932fb5a831e8ac471bd5f4b2a7351b8":[6,0,0,150,21],
-"class_ogre_1_1_d3_d11_vertex_declaration.html#a98cce285a45ba6f4cf817dcf46bfb588":[6,0,0,150,14]
+"class_ogre_1_1_d3_d11_vertex_declaration.html#a98cce285a45ba6f4cf817dcf46bfb588":[6,0,0,150,14],
+"class_ogre_1_1_d3_d11_vertex_declaration.html#a9c5169a898e25dfd498d446eab36ab0e":[6,0,0,150,8],
+"class_ogre_1_1_d3_d11_vertex_declaration.html#aa9e3bde080e00f7cb9ee737259bb7fa2":[6,0,0,150,12],
+"class_ogre_1_1_d3_d11_vertex_declaration.html#ac9ce837e81bbf38f2a48ac958d222bce":[6,0,0,150,7],
+"class_ogre_1_1_d3_d11_vertex_declaration.html#ad39445c408cde1362822577ba0c485c2":[6,0,0,150,20]
 };

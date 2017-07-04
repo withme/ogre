@@ -485,7 +485,6 @@ var files =
       [ "GL3PlusTextureBuffer", "class_ogre_1_1_g_l3_plus_texture_buffer.html", "class_ogre_1_1_g_l3_plus_texture_buffer" ]
     ] ],
     [ "OgreGL3PlusTextureManager.h", "_ogre_g_l3_plus_texture_manager_8h.html", "_ogre_g_l3_plus_texture_manager_8h" ],
-    [ "OgreGL3PlusUniformCache.h", "_ogre_g_l3_plus_uniform_cache_8h.html", "_ogre_g_l3_plus_uniform_cache_8h" ],
     [ "OgreGL3PlusVertexArrayObject.h", "_ogre_g_l3_plus_vertex_array_object_8h.html", [
       [ "GL3PlusVertexArrayObject", "class_ogre_1_1_g_l3_plus_vertex_array_object.html", "class_ogre_1_1_g_l3_plus_vertex_array_object" ]
     ] ],
@@ -573,7 +572,6 @@ var files =
     [ "OgreGLES2TextureManager.h", "_ogre_g_l_e_s2_texture_manager_8h.html", [
       [ "GLES2TextureManager", "class_ogre_1_1_g_l_e_s2_texture_manager.html", "class_ogre_1_1_g_l_e_s2_texture_manager" ]
     ] ],
-    [ "OgreGLES2UniformCache.h", "_ogre_g_l_e_s2_uniform_cache_8h.html", "_ogre_g_l_e_s2_uniform_cache_8h" ],
     [ "OgreGLES2Util.h", "_ogre_g_l_e_s2_util_8h.html", "_ogre_g_l_e_s2_util_8h" ],
     [ "OgreGLES2VertexDeclaration.h", "_ogre_g_l_e_s2_vertex_declaration_8h.html", [
       [ "GLES2VertexDeclaration", "class_ogre_1_1_g_l_e_s2_vertex_declaration.html", "class_ogre_1_1_g_l_e_s2_vertex_declaration" ]

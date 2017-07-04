@@ -67,16 +67,16 @@ var hierarchy =
     [ "GLES2RenderTexture MANAGED_RESOURCE", null, [
       [ "Ogre::GLES2FBORenderTexture", "class_ogre_1_1_g_l_e_s2_f_b_o_render_texture.html", null ]
     ] ],
-    [ "GLSLESProgramCommon MANAGED_RESOURCE", null, [
-      [ "Ogre::GLSLESLinkProgram", "class_ogre_1_1_g_l_s_l_e_s_link_program.html", null ]
-    ] ],
     [ "GLSLProgramCommon", null, [
-      [ "Ogre::GLSLESProgramCommon", "class_ogre_1_1_g_l_s_l_e_s_program_common.html", [
-        [ "Ogre::GLSLESProgramPipeline", "class_ogre_1_1_g_l_s_l_e_s_program_pipeline.html", null ]
-      ] ],
       [ "Ogre::GLSLProgram", "class_ogre_1_1_g_l_s_l_program.html", [
         [ "Ogre::GLSLMonolithicProgram", "class_ogre_1_1_g_l_s_l_monolithic_program.html", null ],
         [ "Ogre::GLSLSeparableProgram", "class_ogre_1_1_g_l_s_l_separable_program.html", null ]
+      ] ]
+    ] ],
+    [ "GLSLProgramCommon MANAGED_RESOURCE", null, [
+      [ "Ogre::GLSLESProgramCommon", "class_ogre_1_1_g_l_s_l_e_s_program_common.html", [
+        [ "Ogre::GLSLESLinkProgram", "class_ogre_1_1_g_l_s_l_e_s_link_program.html", null ],
+        [ "Ogre::GLSLESProgramPipeline", "class_ogre_1_1_g_l_s_l_e_s_program_pipeline.html", null ]
       ] ]
     ] ],
     [ "GLSLShaderCommon", null, [
@@ -135,7 +135,6 @@ var hierarchy =
     [ "Ogre::list< ErrorPtr >", "struct_ogre_1_1list.html", null ],
     [ "Ogre::list< GL3PlusContext * >", "struct_ogre_1_1list.html", null ],
     [ "Ogre::list< GLContext * >", "struct_ogre_1_1list.html", null ],
-    [ "Ogre::list< GLES2Context * >", "struct_ogre_1_1list.html", null ],
     [ "Ogre::list< HardwareOcclusionQuery * >", "struct_ogre_1_1list.html", null ],
     [ "Ogre::list< HardwareVertexBufferSharedPtr >", "struct_ogre_1_1list.html", null ],
     [ "Ogre::list< IndexRemap >", "struct_ogre_1_1list.html", null ],
@@ -175,6 +174,7 @@ var hierarchy =
     [ "Ogre::map< D3D11HLSLProgram *, vector< D3D11_INPUT_ELEMENT_DESC >::type >", "struct_ogre_1_1map.html", null ],
     [ "Ogre::map< D3D9RenderWindow *, RenderWindowResources * >", "struct_ogre_1_1map.html", null ],
     [ "Ogre::map< FunctionInvocation, String >", "struct_ogre_1_1map.html", null ],
+    [ "Ogre::map< GLContext *, GL3PlusStateCacheManager >", "struct_ogre_1_1map.html", null ],
     [ "Ogre::map< GLContext *, GLStateCacheManager >", "struct_ogre_1_1map.html", null ],
     [ "Ogre::map< GpuConstantType, const char * >", "struct_ogre_1_1map.html", null ],
     [ "Ogre::map< GpuSharedParametersPtr, HardwareUniformBufferSharedPtr >", "struct_ogre_1_1map.html", null ],
@@ -438,9 +438,7 @@ var hierarchy =
       [ "Ogre::ExternalTextureSourceManager", "class_ogre_1_1_external_texture_source_manager.html", null ],
       [ "Ogre::FileSystemLayer", "class_ogre_1_1_file_system_layer.html", null ],
       [ "Ogre::GL3PlusStateCacheManager", "class_ogre_1_1_g_l3_plus_state_cache_manager.html", null ],
-      [ "Ogre::GL3PlusUniformCache", "class_ogre_1_1_g_l3_plus_uniform_cache.html", null ],
       [ "Ogre::GLES2StateCacheManager", "class_ogre_1_1_g_l_e_s2_state_cache_manager.html", null ],
-      [ "Ogre::GLES2UniformCache", "class_ogre_1_1_g_l_e_s2_uniform_cache.html", null ],
       [ "Ogre::GLStateCacheManager", "class_ogre_1_1_g_l_state_cache_manager.html", null ],
       [ "Ogre::GLUniformCache", "class_ogre_1_1_g_l_uniform_cache.html", null ],
       [ "Ogre::GpuLogicalBufferStruct", "struct_ogre_1_1_gpu_logical_buffer_struct.html", null ],
@@ -2291,8 +2289,8 @@ var hierarchy =
     [ "Ogre::vector< TextureUnitState * >", "struct_ogre_1_1vector.html", null ],
     [ "Ogre::vector< Triangle >", "struct_ogre_1_1vector.html", null ],
     [ "Ogre::vector< TriangleCache >", "struct_ogre_1_1vector.html", null ],
-    [ "Ogre::vector< UINT >", "struct_ogre_1_1vector.html", null ],
     [ "Ogre::vector< uint >", "struct_ogre_1_1vector.html", null ],
+    [ "Ogre::vector< UINT >", "struct_ogre_1_1vector.html", null ],
     [ "Ogre::vector< uint8 * >", "struct_ogre_1_1vector.html", null ],
     [ "Ogre::vector< UniformParameterPtr >", "struct_ogre_1_1vector.html", null ],
     [ "Ogre::vector< unsigned >", "struct_ogre_1_1vector.html", null ],

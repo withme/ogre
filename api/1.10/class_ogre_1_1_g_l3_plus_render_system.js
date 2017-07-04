@@ -60,6 +60,7 @@ var class_ogre_1_1_g_l3_plus_render_system =
     [ "preExtraThreadsStarted", "class_ogre_1_1_g_l3_plus_render_system.html#af8dce80de108c05fb7477e367773f0d1", null ],
     [ "postExtraThreadsStarted", "class_ogre_1_1_g_l3_plus_render_system.html#a7fbfe867fc50c5bc2dbdc8ec7c48626a", null ],
     [ "setClipPlanesImpl", "class_ogre_1_1_g_l3_plus_render_system.html#a01e6581a377e82f5c306ea9d5c939353", null ],
+    [ "getGLSupportRef", "class_ogre_1_1_g_l3_plus_render_system.html#af357c99f9a864ea73d223501c1abb88a", null ],
     [ "_getMainContext", "class_ogre_1_1_g_l3_plus_render_system.html#a251c071e8a438e7ac004a5cd20a22823", null ],
     [ "_unregisterContext", "class_ogre_1_1_g_l3_plus_render_system.html#a1257a2c48a25e4218988346501020bb8", null ],
     [ "_switchContext", "class_ogre_1_1_g_l3_plus_render_system.html#a4f64253cbc9da17ccac42e2214d90239", null ],

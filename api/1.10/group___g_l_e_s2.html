@@ -34,7 +34,7 @@
   <td id="projectlogo"><img alt="Logo" src="ogre-logo-wetfloor.gif"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">OGRE
-   &#160;<span id="projectnumber">1.10.4</span>
+   &#160;<span id="projectnumber">1.10.7</span>
    </div>
    <div id="projectbrief">Object-Oriented Graphics Rendering Engine</div>
   </td>
@@ -156,9 +156,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga234e49f5469846344bd7ed4973d0b5f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_l_e_s2.html#ga234e49f5469846344bd7ed4973d0b5f6">Ogre::GLES2RenderSystem::_getDepthStencilFormatFor</a> (PixelFormat internalColourFormat, GLenum *depthFormat, GLenum *stencilFormat)</td></tr>
 <tr class="memdesc:ga234e49f5469846344bd7ed4973d0b5f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mimics <a class="el" href="class_ogre_1_1_d3_d9_render_system.html#a756e9227a2d0147e31100ce041d4f9cb" title="Check which depthStencil formats can be used with a certain pixel format, and return the best suited...">D3D9RenderSystem::_getDepthStencilFormatFor</a>, if no FBO RTT manager, outputs GL_NONE.  <a href="#ga234e49f5469846344bd7ed4973d0b5f6">More...</a><br /></td></tr>
 <tr class="separator:ga234e49f5469846344bd7ed4973d0b5f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga54e976f253252771af48b1fb50352d7f"><td class="memItemLeft" align="right" valign="top">GLES2Context *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_l_e_s2.html#ga54e976f253252771af48b1fb50352d7f">Ogre::GLES2RenderSystem::_getMainContext</a> ()</td></tr>
-<tr class="memdesc:ga54e976f253252771af48b1fb50352d7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the main context.  <a href="#ga54e976f253252771af48b1fb50352d7f">More...</a><br /></td></tr>
-<tr class="separator:ga54e976f253252771af48b1fb50352d7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1311c19902ad1cdf50666e5daf08d002"><td class="memItemLeft" align="right" valign="top">GLContext *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_l_e_s2.html#ga1311c19902ad1cdf50666e5daf08d002">Ogre::GLES2RenderSystem::_getMainContext</a> ()</td></tr>
+<tr class="memdesc:ga1311c19902ad1cdf50666e5daf08d002"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the main context.  <a href="#ga1311c19902ad1cdf50666e5daf08d002">More...</a><br /></td></tr>
+<tr class="separator:ga1311c19902ad1cdf50666e5daf08d002"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gabb6817d185f2ebe29984e15de2b7e24a"><td class="memItemLeft" align="right" valign="top">RenderWindow *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_l_e_s2.html#gabb6817d185f2ebe29984e15de2b7e24a">Ogre::GLES2RenderSystem::_initialise</a> (bool autoCreateWindow, const String &amp;windowTitle=&quot;OGRE Render NativeWindowType&quot;)</td></tr>
 <tr class="memdesc:gabb6817d185f2ebe29984e15de2b7e24a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start up the renderer using the settings selected (Or the defaults if none have been selected).  <a href="#gabb6817d185f2ebe29984e15de2b7e24a">More...</a><br /></td></tr>
 <tr class="separator:gabb6817d185f2ebe29984e15de2b7e24a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -247,12 +247,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ga9e85e1cc3f1c220959768593e0017f40"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_l_e_s2.html#ga9e85e1cc3f1c220959768593e0017f40">Ogre::GLES2RenderSystem::_setViewport</a> (Viewport *vp)</td></tr>
 <tr class="memdesc:ga9e85e1cc3f1c220959768593e0017f40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the provided viewport as the active one for future rendering operations.  <a href="#ga9e85e1cc3f1c220959768593e0017f40">More...</a><br /></td></tr>
 <tr class="separator:ga9e85e1cc3f1c220959768593e0017f40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab352827ac3c1322b9a27466f9a75ab8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_l_e_s2.html#gab352827ac3c1322b9a27466f9a75ab8d">Ogre::GLES2RenderSystem::_switchContext</a> (GLES2Context *context)</td></tr>
-<tr class="memdesc:gab352827ac3c1322b9a27466f9a75ab8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Switch GL context, dealing with involved internal cached states too.  <a href="#gab352827ac3c1322b9a27466f9a75ab8d">More...</a><br /></td></tr>
-<tr class="separator:gab352827ac3c1322b9a27466f9a75ab8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga343ff17c468306c1ec402d22eb09cba4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_l_e_s2.html#ga343ff17c468306c1ec402d22eb09cba4">Ogre::GLES2RenderSystem::_unregisterContext</a> (GLES2Context *context)</td></tr>
-<tr class="memdesc:ga343ff17c468306c1ec402d22eb09cba4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unregister a render target-&gt;context mapping.  <a href="#ga343ff17c468306c1ec402d22eb09cba4">More...</a><br /></td></tr>
-<tr class="separator:ga343ff17c468306c1ec402d22eb09cba4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaade56a7ee4c9a8149a371618126297dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_l_e_s2.html#gaade56a7ee4c9a8149a371618126297dc">Ogre::GLES2RenderSystem::_switchContext</a> (GLContext *context)</td></tr>
+<tr class="memdesc:gaade56a7ee4c9a8149a371618126297dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Switch GL context, dealing with involved internal cached states too.  <a href="#gaade56a7ee4c9a8149a371618126297dc">More...</a><br /></td></tr>
+<tr class="separator:gaade56a7ee4c9a8149a371618126297dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab7faf71d5da9f82a2008c0c4207a1ac7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_l_e_s2.html#gab7faf71d5da9f82a2008c0c4207a1ac7">Ogre::GLES2RenderSystem::_unregisterContext</a> (GLContext *context)</td></tr>
+<tr class="memdesc:gab7faf71d5da9f82a2008c0c4207a1ac7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unregister a render target-&gt;context mapping.  <a href="#gab7faf71d5da9f82a2008c0c4207a1ac7">More...</a><br /></td></tr>
+<tr class="separator:gab7faf71d5da9f82a2008c0c4207a1ac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga33873b6d680e3e820796ee227a34ebb4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_l_e_s2.html#ga33873b6d680e3e820796ee227a34ebb4">Ogre::GLES2RenderSystem::areFixedFunctionLightsInViewSpace</a> () const </td></tr>
 <tr class="memdesc:ga33873b6d680e3e820796ee227a34ebb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Are fixed-function lights provided in view space? Affects optimisation.  <a href="#ga33873b6d680e3e820796ee227a34ebb4">More...</a><br /></td></tr>
 <tr class="separator:ga33873b6d680e3e820796ee227a34ebb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2588,7 +2588,7 @@ Once this init sequence is completed the threads are independent but this startu
 
 </div>
 </div>
-<a class="anchor" id="ga54e976f253252771af48b1fb50352d7f"></a>
+<a class="anchor" id="ga1311c19902ad1cdf50666e5daf08d002"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2596,7 +2596,7 @@ Once this init sequence is completed the threads are independent but this startu
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">GLES2Context* Ogre::GLES2RenderSystem::_getMainContext </td>
+          <td class="memname">GLContext* Ogre::GLES2RenderSystem::_getMainContext </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -2615,7 +2615,7 @@ Once this init sequence is completed the threads are independent but this startu
 
 </div>
 </div>
-<a class="anchor" id="ga343ff17c468306c1ec402d22eb09cba4"></a>
+<a class="anchor" id="gab7faf71d5da9f82a2008c0c4207a1ac7"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2625,7 +2625,7 @@ Once this init sequence is completed the threads are independent but this startu
         <tr>
           <td class="memname">void Ogre::GLES2RenderSystem::_unregisterContext </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_ogre.html#a6ae62dbb324f244e0e75f4141fcd3ce0">GLES2Context</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="class_ogre_1_1_g_l_context.html">GLContext</a> *&#160;</td>
           <td class="paramname"><em>context</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2639,20 +2639,20 @@ Once this init sequence is completed the threads are independent but this startu
 
 <p>Unregister a render target-&gt;context mapping. </p>
 <p>If the context of target is the current context, change the context to the main context so it can be destroyed safely.</p>
-<dl class="section note"><dt>Note</dt><dd>This is automatically called by the destructor of GLES2Context. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>This is automatically called by the destructor of <a class="el" href="class_ogre_1_1_g_l_context.html" title="Class that encapsulates an GL context. ">GLContext</a>. </dd></dl>
 
 <p>Implements <a class="el" href="class_ogre_1_1_g_l_render_system_common.html#a78261a33573fc3b37170fa4212c4c377">Ogre::GLRenderSystemCommon</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="gab352827ac3c1322b9a27466f9a75ab8d"></a>
+<a class="anchor" id="gaade56a7ee4c9a8149a371618126297dc"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void Ogre::GLES2RenderSystem::_switchContext </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_ogre.html#a6ae62dbb324f244e0e75f4141fcd3ce0">GLES2Context</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="class_ogre_1_1_g_l_context.html">GLContext</a> *&#160;</td>
           <td class="paramname"><em>context</em></td><td>)</td>
           <td></td>
         </tr>

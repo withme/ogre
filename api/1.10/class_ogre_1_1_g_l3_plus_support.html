@@ -34,7 +34,7 @@
   <td id="projectlogo"><img alt="Logo" src="ogre-logo-wetfloor.gif"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">OGRE
-   &#160;<span id="projectnumber">1.10.4</span>
+   &#160;<span id="projectnumber">1.10.7</span>
    </div>
    <div id="projectbrief">Object-Oriented Graphics Rendering Engine</div>
   </td>
@@ -155,6 +155,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a38758c27a619f37264902c02728f20e6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_ogre.html#af73bbdc8bed8a3e6fcd56bb8fa188c45">String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_g_l3_plus_support.html#a38758c27a619f37264902c02728f20e6">getShaderLibraryPath</a> (void) const </td></tr>
 <tr class="memdesc:a38758c27a619f37264902c02728f20e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get shader library path.  <a href="#a38758c27a619f37264902c02728f20e6">More...</a><br /></td></tr>
 <tr class="separator:a38758c27a619f37264902c02728f20e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1a124da549ccae7d8a44c0f68c4cc11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ogre_1_1_g_l3_plus_state_cache_manager.html">GL3PlusStateCacheManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_g_l3_plus_support.html#ab1a124da549ccae7d8a44c0f68c4cc11">getStateCacheManager</a> () const </td></tr>
+<tr class="separator:ab1a124da549ccae7d8a44c0f68c4cc11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38eef16a97e29e0f11418314b5d267a5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_g_l3_plus_support.html#a38eef16a97e29e0f11418314b5d267a5">hasMinGLVersion</a> (int major, int minor) const </td></tr>
 <tr class="memdesc:a38eef16a97e29e0f11418314b5d267a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if GL Version is supported.  <a href="#a38eef16a97e29e0f11418314b5d267a5">More...</a><br /></td></tr>
 <tr class="separator:a38eef16a97e29e0f11418314b5d267a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -172,6 +174,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa59e93bc2da16cb9b03d48c1cc90b444"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_g_l3_plus_support.html#aa59e93bc2da16cb9b03d48c1cc90b444">setShaderLibraryPath</a> (<a class="el" href="namespace_ogre.html#af73bbdc8bed8a3e6fcd56bb8fa188c45">String</a> path)</td></tr>
 <tr class="memdesc:aa59e93bc2da16cb9b03d48c1cc90b444"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set shader library path.  <a href="#aa59e93bc2da16cb9b03d48c1cc90b444">More...</a><br /></td></tr>
 <tr class="separator:aa59e93bc2da16cb9b03d48c1cc90b444"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a333d356c5de0253c8203aba3ac255b9a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_g_l3_plus_support.html#a333d356c5de0253c8203aba3ac255b9a">setStateCacheManager</a> (<a class="el" href="class_ogre_1_1_g_l3_plus_state_cache_manager.html">GL3PlusStateCacheManager</a> *stateCacheMgr)</td></tr>
+<tr class="separator:a333d356c5de0253c8203aba3ac255b9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19a36ee8d1f2a88d9b60ea56f6383d86"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_g_l3_plus_support.html#a19a36ee8d1f2a88d9b60ea56f6383d86">start</a> ()</td></tr>
 <tr class="memdesc:a19a36ee8d1f2a88d9b60ea56f6383d86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start anything special.  <a href="#a19a36ee8d1f2a88d9b60ea56f6383d86">More...</a><br /></td></tr>
 <tr class="separator:a19a36ee8d1f2a88d9b60ea56f6383d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -534,6 +538,55 @@ iOS: UIWindow address as an integer</li>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a class="anchor" id="ab1a124da549ccae7d8a44c0f68c4cc11"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ogre_1_1_g_l3_plus_state_cache_manager.html">GL3PlusStateCacheManager</a>* Ogre::GL3PlusSupport::getStateCacheManager </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="class_ogre_1_1_g_l3_plus_hardware_buffer_manager_base.html#a1f560045108ba15b8dfd15badda8b98e">Ogre::GL3PlusHardwareBufferManagerBase::getStateCacheManager()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a333d356c5de0253c8203aba3ac255b9a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ogre::GL3PlusSupport::setStateCacheManager </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ogre_1_1_g_l3_plus_state_cache_manager.html">GL3PlusStateCacheManager</a> *&#160;</td>
+          <td class="paramname"><em>stateCacheMgr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
