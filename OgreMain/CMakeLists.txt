@@ -291,7 +291,7 @@ if (OGRE_CONFIG_ENABLE_STBI)
   
   if(CMAKE_COMPILER_IS_GNUCXX)
       # workaround gcc5 bug on Ubuntu 16.04 regarding __builtin_cpu_supports
-      list(APPEND LIBRARIES gcc)
+      #list(APPEND LIBRARIES gcc)
   endif()
 endif ()
 

@@ -260,9 +260,12 @@ if (APPLE_IOS)
   set(OGRE_BUILD_RENDERSYSTEM_GLES2 TRUE CACHE BOOL "Forcing OpenGL ES 2 RenderSystem for iOS" FORCE)
   set(OGRE_STATIC TRUE CACHE BOOL "Forcing static build for iOS" FORCE)
   set(MACOSX_BUNDLE_GUI_IDENTIFIER "com.yourcompany.\${PRODUCT_NAME:rfc1034identifier}")
-  add_definitions(-mno-thumb)
+#  add_definitions(-mno-thumb)
 
   string (REPLACE "-msse" "" CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}")
+
+  set(OGRE_BUILD_RENDERSYSTEM_GL3PLUS FALSE CACHE BOOL "Disable OpenGL 3+ for iOS" FORCE)
+
 elseif (ANDROID)
   set(TargetPlatform "Android")
   set(OGRE_PLATFORM OGRE_PLATFORM_ANDROID)
@@ -523,7 +526,7 @@ if (OGRE_BUILD_TESTS)
 endif ()
 
 # Setup samples
-add_subdirectory(Samples)
+#add_subdirectory(Samples)
 
 # Setup command-line tools
 if (OGRE_BUILD_TOOLS)
@@ -552,3 +555,4 @@ include(Packaging)
 
 # Show feature summary
 include(FeatureSummary)
+
