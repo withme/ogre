@@ -103,7 +103,9 @@ namespace Ogre {
         void importSkeleton(DataStreamPtr& stream, Skeleton* pDest);
 
         // TODO: provide Cal3D importer?
-
+        
+        void readAnimation(DataStreamPtr& stream, Skeleton* pSkel);
+        
     protected:
         
         void setWorkingVersion(SkeletonVersion ver);
@@ -122,7 +124,7 @@ namespace Ogre {
         void readFileHeader(DataStreamPtr& stream);
         void readBone(DataStreamPtr& stream, Skeleton* pSkel);
         void readBoneParent(DataStreamPtr& stream, Skeleton* pSkel);
-        void readAnimation(DataStreamPtr& stream, Skeleton* pSkel);
+        
         void readAnimationTrack(DataStreamPtr& stream, Animation* anim, Skeleton* pSkel);
         void readKeyFrame(DataStreamPtr& stream, NodeAnimationTrack* track, Skeleton* pSkel);
         void readSkeletonAnimationLink(DataStreamPtr& stream, Skeleton* pSkel);

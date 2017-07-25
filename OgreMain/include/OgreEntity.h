@@ -87,6 +87,8 @@ namespace Ogre {
         typedef set<Entity*>::type EntitySet;
         typedef map<unsigned short, bool>::type SchemeHardwareAnimMap;
         typedef vector<SubEntity*>::type SubEntityList;
+        
+        MeshPtr getMesh() {return mMesh; }
     protected:
 
         /** Private constructor (instances cannot be created directly).
