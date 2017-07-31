@@ -1852,6 +1852,8 @@ namespace Ogre {
         float *pSrcNorm = 0;
         float *pDestPos = 0;
         float *pDestNorm = 0;
+        float *pSrcUV = 0;
+        float *pDestUV = 0;
         float *pBlendWeight = 0;
         unsigned char* pBlendIdx = 0;
         size_t srcPosStride = 0;
@@ -1860,13 +1862,16 @@ namespace Ogre {
         size_t destNormStride = 0;
         size_t blendWeightStride = 0;
         size_t blendIdxStride = 0;
-
-
+        size_t srcUVStride = 0;
+        size_t destUVStride = 0;
+        
         // Get elements for source
         const VertexElement* srcElemPos =
             sourceVertexData->vertexDeclaration->findElementBySemantic(VES_POSITION);
         const VertexElement* srcElemNorm =
             sourceVertexData->vertexDeclaration->findElementBySemantic(VES_NORMAL);
+        const VertexElement* srcElemUV =
+            sourceVertexData->vertexDeclaration->findElementBySemantic(VES_TEXTURE_COORDINATES);
         const VertexElement* srcElemBlendIndices =
             sourceVertexData->vertexDeclaration->findElementBySemantic(VES_BLEND_INDICES);
         const VertexElement* srcElemBlendWeights =
@@ -1878,17 +1883,20 @@ namespace Ogre {
             targetVertexData->vertexDeclaration->findElementBySemantic(VES_POSITION);
         const VertexElement* destElemNorm =
             targetVertexData->vertexDeclaration->findElementBySemantic(VES_NORMAL);
-
+        const VertexElement* destElemUV =
+            targetVertexData->vertexDeclaration->findElementBySemantic(VES_TEXTURE_COORDINATES);
+        
         // Do we have normals and want to blend them?
         bool includeNormals = blendNormals && (srcElemNorm != NULL) && (destElemNorm != NULL);
-
+        bool includeUVs = (srcElemUV != NULL) && (destElemUV != NULL);
 
         // Get buffers for source
         HardwareVertexBufferSharedPtr srcPosBuf = sourceVertexData->vertexBufferBinding->getBuffer(srcElemPos->getSource());
         HardwareVertexBufferSharedPtr srcIdxBuf = sourceVertexData->vertexBufferBinding->getBuffer(srcElemBlendIndices->getSource());
         HardwareVertexBufferSharedPtr srcWeightBuf = sourceVertexData->vertexBufferBinding->getBuffer(srcElemBlendWeights->getSource());
         HardwareVertexBufferSharedPtr srcNormBuf;
-
+        HardwareVertexBufferSharedPtr srcUVBuf;
+        
         srcPosStride = srcPosBuf->getVertexSize();
         
         blendIdxStride = srcIdxBuf->getVertexSize();
@@ -1899,6 +1907,13 @@ namespace Ogre {
             srcNormBuf = sourceVertexData->vertexBufferBinding->getBuffer(srcElemNorm->getSource());
             srcNormStride = srcNormBuf->getVertexSize();
         }
+        
+        if (includeUVs)
+        {
+            srcUVBuf = sourceVertexData->vertexBufferBinding->getBuffer(srcElemUV->getSource());
+            srcUVStride = srcUVBuf->getVertexSize();
+        }
+        
         // Get buffers for target
         HardwareVertexBufferSharedPtr destPosBuf = targetVertexData->vertexBufferBinding->getBuffer(destElemPos->getSource());
         HardwareVertexBufferSharedPtr destNormBuf;
@@ -1907,6 +1922,13 @@ namespace Ogre {
         {
             destNormBuf = targetVertexData->vertexBufferBinding->getBuffer(destElemNorm->getSource());
             destNormStride = destNormBuf->getVertexSize();
+        }
+        
+        HardwareVertexBufferSharedPtr destUVBuf;
+        if (includeUVs)
+        {
+            destUVBuf = targetVertexData->vertexBufferBinding->getBuffer(destElemUV->getSource());
+            destUVStride = destUVBuf->getVertexSize();
         }
 
         void* pBuffer;
@@ -1923,7 +1945,16 @@ namespace Ogre {
             }
             srcElemNorm->baseVertexPointerToElement(pBuffer, &pSrcNorm);
         }
-
+        
+        if (includeUVs)
+        {
+            if(srcUVBuf != srcPosBuf)
+            {
+                pBuffer = srcUVBuf->lock(HardwareBuffer::HBL_READ_ONLY);
+            }
+            srcElemUV->baseVertexPointerToElement(pBuffer, &pSrcUV);
+        }
+        
         // Indices must be 4 bytes
         assert(srcElemBlendIndices->getType() == VET_UBYTE4 &&
                "Blend indices must be VET_UBYTE4");
@@ -1955,7 +1986,18 @@ namespace Ogre {
             }
             destElemNorm->baseVertexPointerToElement(pBuffer, &pDestNorm);
         }
-
+        
+        if (includeUVs)
+        {
+            if (destUVBuf != destPosBuf)
+            {
+                pBuffer = destUVBuf->lock(
+                  destUVBuf->getVertexSize() == destElemUV->getSize() ?
+                  HardwareBuffer::HBL_DISCARD : HardwareBuffer::HBL_NORMAL);
+            }
+            destElemUV->baseVertexPointerToElement(pBuffer, &pDestUV);
+        }
+        
         OptimisedUtil::getImplementation()->softwareVertexSkinning(
             pSrcPos, pDestPos,
             pSrcNorm, pDestNorm,
@@ -1966,7 +2008,17 @@ namespace Ogre {
             blendWeightStride, blendIdxStride,
             numWeightsPerVertex,
             targetVertexData->vertexCount);
-
+        
+        // copy uv
+        for (size_t vertIdx = 0; vertIdx < targetVertexData->vertexCount; ++vertIdx)
+        {
+            pDestUV[0] = pSrcUV[0];
+            pDestUV[1] = pSrcUV[1];
+            
+            advanceRawPointer(pSrcUV, srcUVStride);
+            advanceRawPointer(pDestUV, destUVStride);
+        }
+            
         // Unlock source buffers
         srcPosBuf->unlock();
         srcIdxBuf->unlock();
@@ -1978,11 +2030,19 @@ namespace Ogre {
         {
             srcNormBuf->unlock();
         }
+        if (includeUVs && srcUVBuf != srcPosBuf)
+        {
+            srcUVBuf->unlock();
+        }
         // Unlock destination buffers
         destPosBuf->unlock();
         if (includeNormals && destNormBuf != destPosBuf)
         {
             destNormBuf->unlock();
+        }
+        if (includeUVs && destUVBuf != destPosBuf)
+        {
+            destUVBuf->unlock();
         }
 
     }
