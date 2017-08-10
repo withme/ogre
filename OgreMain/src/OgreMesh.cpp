@@ -2010,13 +2010,16 @@ namespace Ogre {
             targetVertexData->vertexCount);
         
         // copy uv
-        for (size_t vertIdx = 0; vertIdx < targetVertexData->vertexCount; ++vertIdx)
+        if(includeUVs)
         {
-            pDestUV[0] = pSrcUV[0];
-            pDestUV[1] = pSrcUV[1];
-            
-            advanceRawPointer(pSrcUV, srcUVStride);
-            advanceRawPointer(pDestUV, destUVStride);
+            for (size_t vertIdx = 0; vertIdx < targetVertexData->vertexCount; ++vertIdx)
+            {
+                pDestUV[0] = pSrcUV[0];
+                pDestUV[1] = pSrcUV[1];
+                
+                advanceRawPointer(pSrcUV, srcUVStride);
+                advanceRawPointer(pDestUV, destUVStride);
+            }
         }
             
         // Unlock source buffers
