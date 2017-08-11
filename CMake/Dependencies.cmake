@@ -14,7 +14,11 @@
 # OGRE_DEPENDENCIES_DIR can be used to specify a single base
 # folder where the required dependencies may be found.
 set(OGRE_DEPENDENCIES_DIR "" CACHE PATH "Path to prebuilt OGRE dependencies")
-option(OGRE_BUILD_DEPENDENCIES "automaitcally build Ogre Dependencies (freetype, zzip)" TRUE)
+
+if(NOT APPLE_IOS)
+	option(OGRE_BUILD_DEPENDENCIES "automaitcally build Ogre Dependencies (freetype, zzip)" TRUE)
+endif()
+
 
 include(FindPkgMacros)
 getenv_path(OGRE_DEPENDENCIES_DIR)
@@ -280,7 +284,7 @@ if (NOT Boost_FOUND)
   set(Boost_ADDITIONAL_VERSIONS "1.57" "1.57.0" "1.56" "1.56.0" "1.55" "1.55.0" "1.54" "1.54.0" "1.53" "1.53.0" "1.52" "1.52.0" "1.51" "1.51.0" "1.50" "1.50.0" "1.49" "1.49.0" "1.48" "1.48.0" "1.47" "1.47.0" "1.46" "1.46.0" "1.45" "1.45.0" "1.44" "1.44.0" "1.42" "1.42.0" "1.41.0" "1.41" "1.40.0" "1.40")
   # Components that need linking (NB does not include header-only components like bind)
   set(OGRE_BOOST_COMPONENTS thread date_time)
-  find_package(Boost COMPONENTS ${OGRE_BOOST_COMPONENTS} QUIET)
+  #find_package(Boost COMPONENTS ${OGRE_BOOST_COMPONENTS} QUIET)
 endif()
 if (NOT Boost_FOUND)
 	# Try again with the other type of libs
@@ -289,7 +293,7 @@ if (NOT Boost_FOUND)
 	else()
 		set(Boost_USE_STATIC_LIBS ON)
 	endif()
-	find_package(Boost COMPONENTS ${OGRE_BOOST_COMPONENTS} QUIET)
+	#find_package(Boost COMPONENTS ${OGRE_BOOST_COMPONENTS} QUIET)
 endif()
 
 if(Boost_FOUND AND Boost_VERSION GREATER 104900)
@@ -298,7 +302,7 @@ if(Boost_FOUND AND Boost_VERSION GREATER 104900)
     else()
         set(OGRE_BOOST_COMPONENTS thread date_time system chrono)
     endif()
-    find_package(Boost COMPONENTS ${OGRE_BOOST_COMPONENTS} QUIET)
+    #find_package(Boost COMPONENTS ${OGRE_BOOST_COMPONENTS} QUIET)
 endif()
 
 if(Boost_FOUND AND NOT WIN32)
