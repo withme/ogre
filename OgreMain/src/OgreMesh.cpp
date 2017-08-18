@@ -2010,7 +2010,7 @@ namespace Ogre {
             targetVertexData->vertexCount);
         
         // copy uv
-        if(includeUVs)
+        if(includeUVs && pDestUV && pSrcUV)
         {
             for (size_t vertIdx = 0; vertIdx < targetVertexData->vertexCount; ++vertIdx)
             {
